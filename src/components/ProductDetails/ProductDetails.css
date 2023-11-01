@@ -1,0 +1,28 @@
+.title {
+  font-weight: 400;
+  color: #545454;
+  margin-bottom: 0.5rem;
+  font-size: 40px;
+}
+
+.price {
+  color: #03989e;
+  font-weight: 700;
+}
+
+.shipping {
+  color: #03989e;
+}
+
+.product-img {
+  max-height: 90vh;
+}
+
+.form-select:focus {
+  border-color: #86b7fe !important;
+  box-shadow: 0 0 0 0;
+}
+
+.form-control {
+  border: 1px solid grey;
+}

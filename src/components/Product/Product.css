@@ -1,0 +1,32 @@
+.card-img-top {
+  height: 30vh !important;
+}
+
+.card-img-top {
+  @media screen and (min-width: 950px) {
+    height: 50vh !important;
+  }
+}
+.card {
+  border: 0;
+}
+
+.card-title {
+  color: #545454;
+  min-height: 6vh;
+  @media screen and (max-width: 450px) {
+    font-size: medium;
+    min-height: 7vh;
+  }
+}
+
+.card-text {
+  color: #03989e;
+  font-weight: 500;
+}
+
+.card-butn {
+  border-radius: 50px;
+  background-color: aliceblue;
+  font-weight: 600;
+}

@@ -1,0 +1,83 @@
+.navbar-brand img {
+  width: 100px;
+  height: 20px;
+}
+
+#content {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: black;
+}
+
+.cart-container {
+  display: flex;
+  position: relative;
+  svg {
+    height: 1.6rem;
+    margin-left: 5px;
+  }
+}
+.cart-value {
+  position: absolute;
+  top: -14px;
+  right: -20px;
+  background: yellow;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  color: black;
+  padding: 12px;
+}
+
+.login-butn {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.search-container {
+  display: flex;
+  width: 300px;
+  height: 30px;
+  top: 100%;
+  text-align: center;
+  margin: 20;
+  border: 0;
+}
+
+.search-box {
+  width: 300px;
+  height: 30px;
+  border: 0;
+}
+
+.search-box .wrapper {
+  width: 300px !important;
+  height: 30px;
+}
+
+.search-box {
+  @media screen and (max-width: 420px) {
+    width: 150px !important;
+  }
+}
+
+.search-box .wrapper {
+  @media screen and (max-width: 420px) {
+    width: 150px !important;
+  }
+}
+
+.search-container {
+  @media screen and (max-width: 420px) {
+    width: 150px !important;
+  }
+}

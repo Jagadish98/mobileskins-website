@@ -1,0 +1,34 @@
+.product_pic {
+  width: 140px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card {
+  border: none;
+}
+
+.input-number {
+  width: 40px !important;
+  border: 2px solid brown;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 980px) {
+  .right_div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 6rem;
+  }
+}
+
+.quantity_btn {
+  width: 1rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
