@@ -1,4 +1,10 @@
 .carousel {
   width: 100vw;
-  height: 70vh;
 }
+
+.carousel {
+  @media screen and (max-width: 400px) {
+    height: 30vh !important;
+  }
+}
+
